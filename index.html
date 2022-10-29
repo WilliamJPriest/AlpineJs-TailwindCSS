@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex justify-center text-center flex-col">
+        <h1 class="text-3xl font-bold underline pb-2">Adventure-Dom</h1>
+        <div class="">
+            <a href="">Home</a>
+            <a href="">About US</a>
+            <a href="">Contact Us</a>
+        </div>
+    </nav>
+    <main>
+        <section class="flex justify-center text-center flex-col md:flex-row pt-20 gap-12 h-screen" >
+            <article class="w-auto md:w-[40rem]">
+                <img class="" src="Assets/adventureDom.png" alt="adventureDom">
+            </article>
+            <article > 
+                <form class="flex flex-col justify-center text-center pt-10"> 
+                    <label class="pb-5 text-xl font-bold italic underline "for="">Sign up for our newsletter</label>
+                    <input class="px-auto w-64 md:w-96" type="text" placeholder="Email">
+                    <button class="pt-2">Sign Up</button>
+                </form>
+            </article>
+        </section>
+        <section class="bg-[url('/Assets/mountains.jpeg')] bg-cover h-screen">
+            <h2 class="flex justify-center text-center text-3xl bold text-white pt-20">About Us</h2>
+            <article class="flex justify-center text-center pt-56 px-20 text-white text-xl">
+                <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, amet possimus necessitatibus, consectetur incidunt odit accusamus beatae officia quos sapiente quia, tenetur porro dolor maiores neque pariatur voluptatum. Non, doloremque!</p>
+            </article>
+        </section>
+        <section class="h-30">
+            <p> Need to reach out to us?</p>
+            <button>Contact Us</button>
+        </section>
+        <footer class="h-50">
+            <h4>footer</h4>
+
+        </footer>
+    </main>
+</body>
+</html>
